@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.mapper.UserMapper">
+    <resultMap id="baseResultMap" type="com.example.entity.UserEntity">
+        <result column="id" property="id" jdbcType="BIGINT"></result>
+        <result column="name" property="name" jdbcType="VARCHAR"></result>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"></result>
+        <result column="password" property="password" jdbcType="VARCHAR"></result>
+        <result column="age" property="age" jdbcType="INTEGER"></result>
+        <result column="phone" property="phone" jdbcType="VARCHAR"></result>
+        <result column="tel" property="tel" jdbcType="VARCHAR"></result>
+        <result column="insert_time" property="insertTime" jdbcType="TIMESTAMP"></result>
+        <result column="update_time" property="updateTime" jdbcType="TIMESTAMP"></result>
+    </resultMap>
+
+    <sql id="baseColumn">
+        id , name , user_name,password,age, phone , tel ,insert_time , update_time
+    </sql>
+
+    <select id="getAll" resultMap="baseResultMap">
+        SELECT
+          <include refid="baseColumn"/>
+        from
+          user
+    </select>
+
+    <select id="getOne">
+        SELECT
+         <include refid="baseColumn"/>
+        from
+         user
+        where id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.example.entity.UserEntity" useGeneratedKeys="true" keyProperty="id">
+        INSERT  INTO  USER (user_name,password,name,age,phone,tel,insert_time,update_time)
+        VALUES (userName,password,#{name},#{age},#{phone},#{tel},#{insertTime},#{updateTime})
+    </insert>
+
+    <update id="update" parameterType="com.example.entity.UserEntity">
+        update user
+          set
+          <if test="null != name and '' != name">
+               name = #{name},
+          </if>
+        <if test="null != name and '' != name">
+            age = #{age},
+        </if>
+        <if test="null != name and '' != name">
+            phone = #{phone},
+        </if>
+        <if test="null != name and '' != name">
+            tel = #{tel},
+        </if>
+          update_time = #{updateTime}
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+      DELETE  from user where id = #{id}
+    </delete>
+
+    <select id="findByUserName" parameterType="java.lang.String" resultMap="baseResultMap">
+        SELECT
+        <include refid="baseColumn"/>
+        from
+        user
+        where user_name = #{userName}
+    </select>
+</mapper>

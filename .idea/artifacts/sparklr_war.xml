@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sparklr:war">
+    <output-path>D:/download_project/spring-security-oauth-master/target</output-path>
+    <root id="archive" name="sparklr-2.2.2.BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="sparklr:war exploded" />
+    </root>
+  </artifact>
+</component>

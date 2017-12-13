@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/download_project/spring-security-oauth-master/samples/oauth/sparklr" />
+    <file type="web" url="file://D:/download_project/spring-security-oauth-master/samples/oauth/tonr" />
+    <file type="web" url="file://D:/download_project/spring-security-oauth-master/samples/oauth2/sparklr" />
+    <file type="web" url="file://D:/download_project/spring-security-oauth-master/samples/oauth2/tonr" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="D:/download_project/spring-security-oauth-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="D:/download_project/spring-security-oauth-master/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/samples/oauth/sparklr/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/samples/oauth/tonr/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/samples/oauth2/sparklr/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/samples/oauth2/tonr/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/samples/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/spring-security-oauth/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/spring-security-oauth2/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/approval/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/client/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/common/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/custom-authentication/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/custom-grant/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/form/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/jaxb/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/jdbc/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/jpa/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/jwt/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/mappings/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/multi/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/resource/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/annotation/vanilla/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/approval/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/client/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/common/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/form/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/jdbc/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/jwt/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/mappings/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/pom.xml" />
+        <option value="D:/download_project/spring-security-oauth-master/tests/xml/vanilla/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

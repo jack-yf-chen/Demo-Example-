@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://D:/download_project/spring-security-oauth-master" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/samples" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/samples/oauth/sparklr" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/samples/oauth/tonr" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/samples/oauth2/sparklr" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/samples/oauth2/tonr" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/spring-security-oauth" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/spring-security-oauth2" charset="UTF-8" />
+    <file url="file://D:/download_project/spring-security-oauth-master/tests" charset="UTF-8" />
+  </component>
+</project>

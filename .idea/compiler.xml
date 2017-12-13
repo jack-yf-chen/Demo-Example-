@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for OAuth for Spring Security" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Demo_main" target="1.8" />
+      <module name="Demo_test" target="1.8" />
+      <module name="sparklr" target="1.7" />
+      <module name="sparklr2" target="1.7" />
+      <module name="spring-oauth2-tests-approval" target="1.7" />
+      <module name="spring-oauth2-tests-client" target="1.7" />
+      <module name="spring-oauth2-tests-common" target="1.7" />
+      <module name="spring-oauth2-tests-custom-authentication" target="1.7" />
+      <module name="spring-oauth2-tests-custom-grant" target="1.7" />
+      <module name="spring-oauth2-tests-form" target="1.7" />
+      <module name="spring-oauth2-tests-jaxb" target="1.7" />
+      <module name="spring-oauth2-tests-jdbc" target="1.7" />
+      <module name="spring-oauth2-tests-jpa" target="1.7" />
+      <module name="spring-oauth2-tests-jwt" target="1.7" />
+      <module name="spring-oauth2-tests-mappings" target="1.7" />
+      <module name="spring-oauth2-tests-multi" target="1.7" />
+      <module name="spring-oauth2-tests-parent" target="1.7" />
+      <module name="spring-oauth2-tests-resource" target="1.7" />
+      <module name="spring-oauth2-tests-vanilla" target="1.7" />
+      <module name="spring-oauth2-tests-xml-approval" target="1.7" />
+      <module name="spring-oauth2-tests-xml-client" target="1.7" />
+      <module name="spring-oauth2-tests-xml-common" target="1.7" />
+      <module name="spring-oauth2-tests-xml-form" target="1.7" />
+      <module name="spring-oauth2-tests-xml-jdbc" target="1.7" />
+      <module name="spring-oauth2-tests-xml-jwt" target="1.7" />
+      <module name="spring-oauth2-tests-xml-mappings" target="1.7" />
+      <module name="spring-oauth2-tests-xml-parent" target="1.7" />
+      <module name="spring-oauth2-tests-xml-vanilla" target="1.7" />
+      <module name="spring-security-oauth" target="1.7" />
+      <module name="spring-security-oauth-parent" target="1.7" />
+      <module name="spring-security-oauth-samples" target="1.7" />
+      <module name="spring-security-oauth-tests" target="1.7" />
+      <module name="spring-security-oauth2" target="1.7" />
+      <module name="tonr" target="1.7" />
+      <module name="tonr2" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
